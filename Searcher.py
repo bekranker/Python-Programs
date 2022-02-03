@@ -2,11 +2,6 @@ import requests
 import os
 import sys
 from bs4 import BeautifulSoup
-from selenium import webdriver
-import os
-import sys
-
-
 
 target = input("Target site: ")
 
@@ -30,11 +25,3 @@ try:
 except:
     print("Somethings wrong...")
     pass
-
-
-
-
-
-
-
-
